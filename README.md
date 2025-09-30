@@ -135,11 +135,6 @@ fprintf('R=%.4f, T=%.4f, regime=%s\n', out.R, out.Tpow, out.Regime);
 ~~~text
 em-tm-reflect/
 ├─ emTMReflect.m
-├─ examples/
-│  ├─ demo_air_to_ps.m
-│  └─ demo_critical_angle.m
-├─ tests/
-│  └─ test_emTMReflect.m
 ├─ media/
 │  ├─ screenshot.png
 │  └─ demo.gif
