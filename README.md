@@ -162,6 +162,10 @@ function testCriticalAngle(~)
   assert(abs(out.Tpow) < 1e-12);
 end
 ~~~
+---
+
+## Reference
+C. A. Balanis, Advanced Engineering Electromagnetics — Section 5.3.2 Parallel (Vertical or H) Polarization.
 
 ---
 
