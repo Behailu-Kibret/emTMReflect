@@ -32,9 +32,8 @@ emTMReflect;
 % Change media & angle
 emTMReflect('Eps1',4,'Eps2',1,'ThetaInc',60);
 
-% Bigger movie & save outputs (Linux-friendly)
-emTMReflect('AxesSizePx',1000, ...
-            'SaveGIF',true,'GIFFile','tm_demo.gif', ...
+% Generate movie & save outputs (Linux-friendly)
+emTMReflect('SaveGIF',true,'GIFFile','tm_demo.gif', ...
             'SaveVideo',true,'VideoProfile','Motion JPEG AVI');
 ~~~
 
