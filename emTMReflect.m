@@ -185,6 +185,7 @@ maxAmpPhasor = max(hypot(abs(Ex0(:)), abs(Ez0(:))));
 
 % Figure & axes (fixed pixels so video frames are consistent)
 hFig = figure('Color','w','Units','pixels');
+hFig.Position(1:2) = [100 100];
 hFig.Position(3:4) = [S.FigSizePx];
 ax = axes('Parent',hFig,'Units','pixels','ActivePositionProperty','position', ...
           'Position',[70 70 S.AxesSizePx S.AxesSizePx]);
